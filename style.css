@@ -1,0 +1,162 @@
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+header {
+  margin: 0 auto;
+  width: 100%;
+  border-bottom: solid #000000 2px;
+  position: relative;
+  text-align: center;
+  height: 90px;
+  background: -webkit-linear-gradient(0deg, #ffffff,#FFE1D6,#FFE1D6);
+  background: linear-gradient(340deg, #ffffff,#FFE1D6,#FFE1D6);
+}
+
+.nav-buttons {
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  gap: 30px;
+}
+
+.button-item {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  list-style: none;
+}
+
+.button-link {
+  position: relative;
+  font-family: OCR A Std, monospace;
+  text-decoration: none;
+  font-size: 25px;
+  color: rgb(0, 0, 0);
+}
+
+.button-link:after {
+	content: "";
+  display: block;
+  position: absolute;
+  right: 0;
+  bottom: -3px;
+  width: 0;
+  height: 2px;
+  background-color: rgb(255, 255, 255);
+  transition: width 0.5s;
+}
+
+.button-link:hover::after {
+	content: "";
+  width: 100%;
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: -3px;
+  height: 2px;
+  background-color: rgb(0, 0, 0);
+  transition: 0.5s;
+}
+
+main {
+  margin: 0 auto;
+  background: url(img/background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.container-profile {
+  padding-top: 50px;
+  padding-right: 350px;
+  padding-left: 300px;
+  padding-bottom: 50px;
+}
+
+.profile {
+  display: flex;
+  justify-content: space-around;
+}
+
+.name {
+  padding-top: 220px;
+  padding-left: 120px;
+  font-family: Bradley Hand, cursive;
+  font-size: 25px;
+  color: #000000;
+  text-align: center;
+}
+
+h1 {
+  text-transform: uppercase;
+}
+
+.profile-photo {
+  width: 500px;
+  height: 500px;
+  object-fit: cover;
+  border-radius: 30%;
+  box-shadow: 0 9px 10px rgb(0 0 0 / 60%);
+}
+
+.container-main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  padding: 10px 380px 70px 380px;
+}
+
+.contant {
+  border: 2px solid #000000;
+  display: inline-block;
+  font-size: 20px;
+  font-family: Apple Chancery, cursive;
+}
+
+legend {
+  text-align: center;
+}
+
+h2 {
+  border: 2px solid #000000;
+  color: #fff9f9;
+  font-size: 25px;
+  background-color: #000000;
+  padding: 0px 70px;
+  font-family: OCR A Std, monospace;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: solid #000000 2px;
+  background: -webkit-linear-gradient(359deg, #ffffff,#FFE1D6,#FFE1D6);
+  background: linear-gradient(359deg, #ffffff,#FFE1D6,#FFE1D6);
+}
+
+.rsschool {
+  display: flex;
+  margin-left: 40px;
+}
+
+.year {
+  font-weight: bold;
+  margin-left: 15px;
+  margin-top: 100px;
+}
+
+.section {
+  display: flex;
+  justify-content: center;
+  gap: 70px;
+}
+
+.button-up {
+  margin-right: 40px;
+}
