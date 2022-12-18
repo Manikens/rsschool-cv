@@ -1,4 +1,4 @@
 # rsschool-cv
 
-https://github.com/Manikens/rsschool-cv/tree/rsschool-cv-html<br>
-https://github.com/Manikens/rsschool-cv/blob/rsschool-cv-html/index.html
+https://manikens.github.io/rsschool-cv/cv<br>
+https://manikens.github.io/rsschool-cv/
