@@ -19,7 +19,7 @@ Obtaining a position in a stable, commercial company for the realization of thei
 - English — 1A — elementary
 
 ### Contacts for communication:
-- Emial: Olegzhuikov@yandex.ru
+- Email: Olegzhuikov@yandex.ru
 - Telegram: https://t.me/Manikene
 
 ### Code example:
