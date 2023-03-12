@@ -1,0 +1,70 @@
+h1 {
+	font-family: "inherit", sans-serif;
+	font-size: 40px;
+	font-weight: 900;
+}
+
+.accordion {
+  width: 750px;
+  margin: 70px auto;
+}
+
+hr {
+  width: 100;
+  border: 0.px solid rgb(0, 0, 0);
+}
+
+.all_content {
+	color: #1b68dd;
+	cursor: pointer;
+}
+
+.all_content:hover {
+	color: black;
+}
+
+.item {
+	display: none;
+}
+
+.item:hover + .name + .images {
+	height: auto;
+  padding: 10px 0;
+	transition: 1s;
+}
+
+.item:checked + .name + .images {
+  height: auto;
+	padding: 14px 0;
+}
+
+.name {
+	cursor: pointer;
+	font-family: "inherit", sans-serif;
+	font-size: 20px;
+	font-weight: 900;
+	position: relative;
+}
+
+.name::after {
+	content: "+";
+	display: block;
+	position: absolute;
+	left: 720px;
+	top: 1px;
+}
+
+:checked + .name {
+	color: black;
+}
+
+.images {
+	text-align: center;
+	height: 0;
+	overflow: hidden;
+	transition: .5s;
+}
+
+img {
+	width: 500px;
+}

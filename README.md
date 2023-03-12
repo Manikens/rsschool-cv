@@ -1,1 +1,1 @@
-# rsschool-cv
+https://Manikens.github.io/rsschool-cv/
